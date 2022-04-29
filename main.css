@@ -1,0 +1,28 @@
+table {
+  text-align: center;
+  margin: 1px;
+}
+input {
+  width: 90px;
+  height: 30px;
+  font-size: 20px;
+  border: 1px solid #706f6f;
+  border-radius: 3px;
+  box-shadow: 1px 1px;
+}
+.btn:active {
+  border-color: blue;
+  border-radius: 1px;
+}
+.result {
+  width: 370px;
+  text-align: right;
+  background-color: black;
+  border-radius: 0px;
+  border: none;
+  color: #fff;
+  padding:0 5px;
+}
+#ac, #equal {
+  width: 185px;
+}
