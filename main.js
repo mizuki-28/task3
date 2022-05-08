@@ -4,13 +4,15 @@ function clickbtn(btn) {
     document.calculator.result.value = "0";
   } else if (btn.value == "=") {
     document.calculator.result.value = eval(document.calculator.result.value);
-    } else {
+  } else if (btn.value == ".") {
+    document.calculator.result.value += btn.value;
+  } else {
       if (document.calculator.result.value == "0") {
         document.calculator.result.value = btn.value;
       } else if (document.calculator.result.value == "00") {
         document.calculator.result.value = btn.value;
       } else {
-        document.calculator.result.value += btn.value; 
+        document.calculator.result.value += btn.value;
       }
     }
 }
